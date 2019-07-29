@@ -38,7 +38,7 @@ def new_stamp():
     stamp_list.append(stamp1)
 
 for z in range(START_LENGTH):
-    snake.pendown()
+    #snake.pendown()
     x_pos=snake.pos()[0] #Get x-position with snake.pos()[0]
     y_pos=snake.pos()[1]
     x_pos+=SQUARE_SIZE
@@ -81,11 +81,11 @@ turtle.listen()
 
 #3. Do the same for the other arrow keys
 ####WRITE YOUR CODE HERE!!
-turtle.onkeypress(down,"down")
+turtle.onkeypress(down,"Down")
 turtle.listen()
-turtle.onkeypress(right,"right")
+turtle.onkeypress(right,"Right")
 turtle.listen()
-turtle.onkeypress(left,"left")
+turtle.onkeypress(left,"Left")
 turtle.listen()
 
 
