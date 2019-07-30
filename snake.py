@@ -3,8 +3,8 @@ import random #We'll need this later in the lab
 
 turtle.tracer(1,0) #This helps the turtle move more smoothly
 
-SIZE_X=1000
-SIZE_Y=800
+SIZE_X=800
+SIZE_Y=500
 turtle.setup(SIZE_X, SIZE_Y) #Curious? It's the turtle window  
                              #size.    
 turtle.penup()
@@ -125,6 +125,8 @@ def move_snake():
 
     #remove the last piece of the snake (Hint Functions are FUN!)
     remove_tail()
+
+
 
 
 turtle.mainloop()
